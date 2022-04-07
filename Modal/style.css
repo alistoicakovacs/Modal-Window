@@ -1,0 +1,54 @@
+* {
+  box-sizing: border-box;
+}
+
+.modal {
+  position: fixed;
+  border: 1px solid black;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 10px;
+  z-index: 10;
+  width: 500px;
+  max-width: 80%;
+  background-color: white;
+}
+
+.modal-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 10px;
+}
+
+.modal-title {
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.close-button {
+  background: none;
+  outline: none;
+  border: none;
+  font-weight: bold;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+.open-button {
+  padding: 10px;
+  border-radius: 20px;
+  outline: none;
+  background: none;
+  border: 2px solid black;
+  cursor: pointer;
+}
+
+.modal-text {
+  padding: 10px 10px;
+}
+
+.hidden {
+  display: none;
+}
